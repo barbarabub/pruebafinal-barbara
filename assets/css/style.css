@@ -1,0 +1,131 @@
+body {
+	font-family: 'Montserrat', 'sans-serif';
+}
+
+header {
+	background-image: url('../img/bg-hero.png');
+	background-repeat: no repeat;
+	background-size: cover;
+	background-position: left;
+	padding-bottom: 10rem;
+}
+
+.navegacion-color {
+	background-color: #0dc6b3;
+}
+
+.navbar-brand , .navegacion-color {
+	font-family: 'Karla';
+}
+
+.texto-color {
+	color: #fff;
+}
+
+.foto-header {
+	padding-top: 400px;
+}
+
+.subtitulo-section {
+	font-family: 'Karla';
+	font-size: 25pt;
+	line-height: 35pt;
+	font-weight: 400;
+}
+
+.parrafo-section {
+	line-height: 25pt;
+}
+
+.titulo-ltnm {
+	font-family: 'Karla';
+}
+
+.ltnm {
+	font-weight: bold;
+}
+
+
+.fa-instagram:before {
+    color: white;
+}
+
+.fa-facebook:before {
+    color: white;
+}
+
+.fa-university:before {
+    color: white;
+}
+
+.fa-envelope:before {
+    color: white;
+}   
+
+.carousel-indicators li {
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #373A3C;
+
+}
+
+.carousel-indicators  {
+bottom: -50px;
+}
+
+.botones {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+.nav-link {
+	color: white!important;
+}   
+
+
+
+/* ---MEDIA QUERIES---- */
+/* ---MEDIA QUERIES---- */
+/* ---MEDIA QUERIES---- */
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 576px) {
+	.titulo-header {
+		font-size: 2.5em;
+		margin-right: 30px;
+	}
+
+
+
+#catedra, #experiencia, #contacto, #experiencia {
+		width: 90%;
+	}
+.titulo-ltnm {
+	font-size: 3rem;
+}
+} 
+
+@media (max-width: 576px) {
+
+
+	
+} 
+  
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media  (min-width: 768px) {...} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {...} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1200px) {...}
+
+
+
+
+
+
+
